@@ -28,7 +28,7 @@ class LoginServlet: HttpServlet() {
             resp!!.addCookie(cookie)
             resp.sendRedirect("/menu.html")
         } else {
-            resp!!.sendRedirect("/login.html")
+            resp!!.sendRedirect("/login")
         }
     }
 }
