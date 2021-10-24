@@ -1,6 +1,5 @@
 package ru.sber.notebook.filter
 
-import java.time.Instant
 import javax.servlet.FilterChain
 import javax.servlet.FilterConfig
 import javax.servlet.ServletContext
