@@ -27,4 +27,9 @@ class NotebookService {
 
         return out
     }
+
+    fun getByQuery(query: Map<String, String>): ConcurrentHashMap<Int, NoteModel> {
+        return if (query.isEmpty()) getAll()
+               else notebook.getByQuery(query)
+    }
 }

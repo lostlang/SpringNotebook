@@ -47,4 +47,18 @@ class NotebookModel {
         }
         return out
     }
+
+    fun getByQuery(querys: Map<String, String>): ConcurrentHashMap<Int, NoteModel>{
+        val resultSearch = ConcurrentHashMap<Int, NoteModel>()
+        for (query in querys){
+            if (query.key == "id"){
+                for (v in query.value.split(',')){
+                    if (v.toInt() < notebook.size){
+                        resultSearch[resultSearch.size] = notebook[v.toInt()]!!
+                    }
+                }
+            }
+        }
+        return resultSearch
+    }
 }
