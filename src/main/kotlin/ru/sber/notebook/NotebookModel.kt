@@ -39,4 +39,12 @@ class NotebookModel {
     fun getAll(): ConcurrentHashMap<Int, NoteModel> {
         return notebook
     }
+
+    fun getById(id: Int): NoteModel?{
+        var out: NoteModel? = null
+        if (id < notebook.size) {
+            out = notebook[id]
+        }
+        return out
+    }
 }
