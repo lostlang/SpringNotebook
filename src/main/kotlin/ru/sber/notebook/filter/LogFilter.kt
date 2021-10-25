@@ -1,4 +1,4 @@
-package ru.sber.notebook.servlet
+package ru.sber.notebook.filter
 
 import javax.servlet.FilterChain
 import javax.servlet.FilterConfig
