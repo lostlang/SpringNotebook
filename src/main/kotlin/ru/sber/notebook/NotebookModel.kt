@@ -6,7 +6,7 @@ data class NoteModel (
     var name: String,
     var lastname: String,
     var streetName: String,
-    var houseNumber: Int
+    var houseNumber: String
 )
 
 class NotebookModel {
