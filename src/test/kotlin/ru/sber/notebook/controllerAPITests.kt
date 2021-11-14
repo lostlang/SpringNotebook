@@ -1,6 +1,5 @@
 package ru.sber.notebook
 
-import org.hamcrest.core.StringContains
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNotNull
 import org.junit.jupiter.api.BeforeEach
@@ -15,9 +14,6 @@ import org.springframework.http.HttpEntity
 import org.springframework.http.HttpHeaders
 import org.springframework.http.HttpMethod
 import org.springframework.http.HttpStatus
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders
-import org.springframework.test.web.servlet.result.MockMvcResultHandlers
-import org.springframework.test.web.servlet.result.MockMvcResultMatchers
 import org.springframework.util.LinkedMultiValueMap
 import org.springframework.util.MultiValueMap
 import ru.sber.notebook.service.NotebookService
