@@ -1,4 +1,4 @@
-package ru.sber.notebook
+package ru.sber.notebook.model
 
 import java.util.concurrent.ConcurrentHashMap
 

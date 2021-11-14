@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.*
-import ru.sber.notebook.NoteModel
+import ru.sber.notebook.model.NoteModel
 import ru.sber.notebook.service.NotebookService
 
 @Controller
