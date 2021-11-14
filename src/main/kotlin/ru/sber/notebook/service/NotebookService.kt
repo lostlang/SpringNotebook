@@ -1,8 +1,8 @@
 package ru.sber.notebook.service
 
 import org.springframework.stereotype.Service
-import ru.sber.notebook.NoteModel
-import ru.sber.notebook.NotebookModel
+import ru.sber.notebook.model.NoteModel
+import ru.sber.notebook.model.NotebookModel
 import java.util.concurrent.ConcurrentHashMap
 
 @Service
